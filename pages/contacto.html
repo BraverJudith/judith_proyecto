@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/favicon.ico"
+      type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Mi Proyecto</title>
+  </head>
+
+  <body id="bodyContact">
+    <header class="container-fluid bg-image">
+      <div class="divLogo row">
+        <div class="col-sm-4 col-12">
+          <img
+            class="logo"
+            src="../assets/icons/Accidentarte_Logo_Color 1.svg"
+            alt="logo" />
+        </div>
+        <nav class="socialMediaMenu col-sm-8 col-12">
+          <a class="socialMediaLink" href="#"
+            ><img
+              class="mediaImg"
+              src="../assets/icons/bxl-facebook-circle.svg"
+              alt="facebook"
+          /></a>
+          <a class="socialMediaLink" href="#"
+            ><img
+              class="mediaImg"
+              src="../assets/icons/bxl-instagram-alt.svg"
+              alt="instagram"
+          /></a>
+          <a class="socialMediaLink" href="#"
+            ><img
+              class="mediaImg"
+              src="../assets/icons/bxl-twitter.svg"
+              alt="twitter"
+          /></a>
+        </nav>
+      </div>
+    </header>
+    <main class="container-fluid d-flex flex-column">
+      <nav id="menu" class="navbar navbar-expand bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav flex-column">
+              <li class="menuButton nav-item active">
+                <a class="menuLink nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="menuButton nav-item">
+                <a class="menuLink nav-link" href="./sobrenosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="menuButton nav-item">
+                <a class="menuLink nav-link" href="./novedades.html">Novedades</a>
+              </li>
+              <li class="menuButton nav-item">
+                <a class="menuLink nav-link" href="./faq.html">FAQS</a>
+              </li>
+              <li class="menuButton nav-item">
+                <a class="menuLink nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<section class="container mb-4 form">
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Formulario de contacto</h2>
+  <p class="text-center w-responsive mx-auto mb-5">Tiene alguna consulta? NO dude en comunicarse con nosotros. Nuestros especialistas se pondran en contacto con Usted a la brevedad.</p>  <div class="row">
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <label for="name" class="">Nombre y Apellido</label>
+                          <input type="text" id="name" name="name" class="form-control">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="email" class="">Su email</label>
+                        <input type="text" id="email" name="email" class="form-control">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <label for="subject" class="">Asunto</label>
+                        <input type="text" id="subject" name="subject" class="form-control">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form">
+                          <label for="message">Dejenos su consulta</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      </div>
+                  </div>
+              </div>
+          </form>
+          <br/>
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+          </div>
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
