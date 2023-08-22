@@ -1,0 +1,196 @@
+.bodyIndexNos {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  background-image: url(../assets/images/Accidente-Laboral-Perito-en-Accidentes-Laborales.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bodyIndexNos header {
+  background: linear-gradient(180deg, #080FA6 0%, rgba(8, 15, 166, 0) 100%);
+  position: relative;
+  background-size: cover;
+}
+.bodyIndexNos header div {
+  text-align: center;
+  padding-left: 0px;
+}
+.bodyIndexNos header div div img {
+  width: 252px;
+  height: 115px;
+  border: none;
+}
+.bodyIndexNos header div nav {
+  display: flex;
+  list-style-type: none;
+  font-size: 1rem;
+  padding-top: 32px;
+  justify-content: flex-end;
+}
+.bodyIndexNos header div nav a {
+  margin: 0 10px;
+  font-size: 0px;
+  color: #333;
+  text-align: end;
+}
+.bodyIndexNos header div nav img {
+  width: 45px;
+  height: auto;
+}
+.bodyIndexNos main nav {
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 0%;
+}
+.bodyIndexNos main nav div {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.bodyIndexNos main nav div div ul li {
+  list-style-type: none;
+  width: 143px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 0px 34px 34px 0px;
+  background-color: #FFA902;
+  display: block;
+  padding: 1px;
+  border: 10px;
+  margin: 10px 5px 5px 0px;
+}
+.bodyIndexNos main nav div div ul li a {
+  text-decoration: none;
+  color: rgb(8, 15, 166);
+  display: block;
+  padding: 5px 12px 12px 3px;
+  white-space: nowrap;
+  font-weight: bolder;
+}
+.bodyIndexNos main div .wsp img {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 100px;
+}
+.bodyIndexNos footer {
+  background: linear-gradient(180deg, rgba(8, 15, 166, 0) 0%, #080FA6 100%);
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0;
+  margin: 0;
+  height: fit-content;
+}
+.bodyIndexNos footer p {
+  display: block;
+  font-style: normal;
+  text-align: center;
+  font-weight: 200;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .bodyIndexNos #faq {
+    margin-left: 30vh;
+  }
+}
+@media screen and (max-width: 575px) {
+  .bodyIndexNos .mediaImg {
+    width: 25px;
+    height: auto;
+    padding: 0;
+  }
+  .bodyIndexNos .logo {
+    width: 200px;
+    height: auto;
+    padding: 0;
+    border: none;
+  }
+  .bodyIndexNos .whatsapp-container {
+    display: block;
+  }
+  .bodyIndexNos footer {
+    font-size: smaller;
+  }
+  .bodyIndexNos .socialMediaMenu {
+    padding: 0;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
+  .bodyIndexNos .bodyIndexNos header div {
+    justify-content: center;
+    text-align: center;
+  }
+  .bodyIndexNos .bodyIndexNos {
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bodyIndexNos header {
+    height: 20%;
+  }
+  .bodyIndexNos .menuButton {
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 0px 34px 34px 0px;
+    background-color: #FFA902;
+    display: block;
+    padding: 1px;
+    border: 10px;
+    margin: 10px 5px 5px 0px;
+    font-size: smaller;
+  }
+  .bodyIndexNos .socialMediaLink {
+    margin: 0;
+    font-size: 0px;
+    text-align: center;
+  }
+  .bodyIndexNos .rectanguloTextolargo {
+    margin-left: 40vh;
+    margin-top: 15vh;
+    width: 600px;
+    height: 400px;
+    background: rgba(217, 217, 217, 0.5);
+    padding: 53px;
+    content: normal;
+  }
+  .bodyIndexNos .rectanguloTextolargo p {
+    margin: 0;
+    width: auto;
+    font-style: normal;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(6, 7, 104);
+    font-size: smaller;
+  }
+  .bodyIndexNos .whatsApp {
+    justify-self: end;
+    position: fixed;
+  }
+  .bodyIndexNos #wap {
+    height: 140px;
+    width: 140px;
+    margin-left: 100vh;
+  }
+  .bodyIndexNos .accordion-body {
+    font-size: smaller;
+  }
+  .bodyIndexNos .nove {
+    padding-top: 10vh;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

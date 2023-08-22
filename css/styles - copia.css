@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 120vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+.bodyIndexNos{    
+    background-image: url(../assets/images/Accidente-Laboral-Perito-en-Accidentes-Laborales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodyContact{
+    background: rgba(217, 217, 217, 0.50);
+}
+header{
+    height: 12%; 
+    position: sticky;
+}
+main{
+    height:100%;
+}
+footer{
+    height: 15%;
+}
+.bg-image {
+    background-image: url('../assets/images/Rectangle1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+}
+.divLogo{
+    text-align: left;
+}
+.logo{
+    width: 252px; 
+    height: 115px;
+    border: none;
+}
+.socialMediaMenu{
+    display: flex;
+    list-style-type: none;
+    font-size: 1rem;
+    padding-top: 32px;   
+    justify-content: flex-end;
+}
+.socialMediaLink{
+  margin: 0 10px;
+  font-size: 0px;
+  color: #333;
+  text-align: end;
+}
+.mediaImg{
+    width:45px;
+    height:auto;    
+}
+menu{
+    height: 70%;
+}
+.menuTab {
+    margin-right: auto;
+}
+ul li{
+    list-style-type: none;
+}
+.menuButton.nav-item {
+    padding: 0px 0;
+}
+.menuButton {
+    width: 143px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 0px 34px 34px 0px;
+    background-color: #FFA902;
+    display: block;
+    padding: 1px;
+    border: 10px;
+    margin: 10px 5px 5px 0px;
+}
+.menuLink {
+    text-decoration: none;
+    color: rgba(8, 15, 166, 1);
+    display: block;
+    padding: 5px 12px 12px 3px;
+    white-space: nowrap;
+    font-weight: bolder;
+}
+#menu {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 0%;
+}
+.container-fluid{
+    padding-left: 0;
+}
+
+.rectanguloTextolargo{
+    margin-left: 60vh;
+    width: 715px;
+    height: 400px;
+    background: rgba(217, 217, 217, 0.50);
+    padding: 73px;
+    content: normal;
+}
+  
+.rectanguloTextolargo p {
+    margin: 0;
+    width: auto;
+    font-style: normal;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(6, 7, 104);
+}
+#faq{
+    width: 80%;
+}
+.preguntas{
+    display: flex;
+    font-size: 1rem;
+    justify-content: flex-end;
+}
+.form{
+    padding-left: 30vh;
+}
+.novedades{
+    padding-left: 30vh;
+}
+.nove{
+    display: flex;
+    font-size: 1rem;
+    justify-content: flex-end;
+}
+.card-img-top{
+    width: 381;
+    height:25vh;
+}
+    
+.whatsApp{
+    justify-self: end;
+    position: fixed;     
+}
+#wap{
+    height: 140px;
+    width: 140px;
+    margin-left: 100vh;
+}
+footer{
+    grid-area: footer;
+    background-image: url(../assets/images/Rectangle8.png);
+    background-size: cover;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0;
+    margin: 0;
+}
+footer p{
+    display: block;
+    font-style: normal;
+    text-align: center;
+    font-weight: 200;
+    color: white;
+}
+@media screen and (max-width:768px) {
+    #faq{
+       margin-left: 30vh;
+    }
+}
+@media screen and (max-width: 575px) {
+    .mediaImg{
+        width:25px;
+        height:auto;
+        padding: 0;
+    }
+    .logo{
+        width: 200px; 
+        height: auto;
+        padding: 0;
+        border: none;
+    }
+    .whatsapp-container {
+        display: block;
+    }
+
+    footer{
+        font-size: smaller;
+    }
+    .socialMediaMenu{
+        padding: 0;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+    }
+    .divLogo{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 425px) {
+    header{
+        height: 20%;
+    }
+    .menuButton {
+        width: 120px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 0px 34px 34px 0px;
+        background-color: #FFA902;
+        display: block;
+        padding: 1px;
+        border: 10px;
+        margin: 10px 5px 5px 0px;
+        font-size: smaller;
+    }
+    .socialMediaLink{
+        margin: 0;
+        font-size: 0px;
+        text-align: center;
+    }    
+    .rectanguloTextolargo{
+        margin-left: 40vh;
+        margin-top: 15vh;
+        width: 600px;
+        height: 400px;
+        background: rgba(217, 217, 217, 0.50);
+        padding: 53px;
+        content: normal;
+    }      
+    .rectanguloTextolargo p {
+        margin: 0;
+        width: auto;
+        font-style: normal;
+        text-align: center;
+        font-weight: bolder;
+        color: rgb(6, 7, 104);
+        font-size: smaller;
+    }        
+    .whatsApp{
+        justify-self: end;
+        position: fixed;     
+    }
+    #wap{
+        height: 140px;
+        width: 140px;
+        margin-left: 100vh;
+    }
+    .accordion-body{
+        font-size: smaller;
+    }
+    .nove{
+        padding-top: 10vh;
+    }
+}

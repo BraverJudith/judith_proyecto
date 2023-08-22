@@ -1,0 +1,92 @@
+@media screen and (max-width:768px) {
+    #faq{
+       margin-left: 30vh;
+    }
+}
+@media screen and (max-width: 575px) {
+    .mediaImg{
+        width:25px;
+        height:auto;
+        padding: 0;
+    }
+    .logo{
+        width: 200px; 
+        height: auto;
+        padding: 0;
+        border: none;
+    }
+    .whatsapp-container {
+        display: block;
+    }
+
+    footer{
+        font-size: smaller;
+    }
+    .socialMediaMenu{
+        padding: 0;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+    }
+    .bodyIndexNos header div{
+        justify-content: center;
+        text-align: center;
+    }
+    .bodyIndexNos{
+        background-size: contain;}
+}
+@media screen and (max-width: 425px) {
+    header{
+        height: 20%;
+    }
+    .menuButton {
+        width: 120px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 0px 34px 34px 0px;
+        background-color: #FFA902;
+        display: block;
+        padding: 1px;
+        border: 10px;
+        margin: 10px 5px 5px 0px;
+        font-size: smaller;
+    }
+    .socialMediaLink{
+        margin: 0;
+        font-size: 0px;
+        text-align: center;
+    }    
+    .rectanguloTextolargo{
+        margin-left: 40vh;
+        margin-top: 15vh;
+        width: 600px;
+        height: 400px;
+        background: rgba(217, 217, 217, 0.50);
+        padding: 53px;
+        content: normal;
+    }      
+    .rectanguloTextolargo p {
+        margin: 0;
+        width: auto;
+        font-style: normal;
+        text-align: center;
+        font-weight: bolder;
+        color: rgb(6, 7, 104);
+        font-size: smaller;
+    }        
+    .whatsApp{
+        justify-self: end;
+        position: fixed;     
+    }
+    #wap{
+        height: 140px;
+        width: 140px;
+        margin-left: 100vh;
+    }
+    .accordion-body{
+        font-size: smaller;
+    }
+    .nove{
+        padding-top: 10vh;
+    }
+}

@@ -1,0 +1,14 @@
+.bodyIndexNos{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background-image: url(../assets/images/Accidente-Laboral-Perito-en-Accidentes-Laborales.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    @import "../header";
+    @import "../main";
+    @import "../footer";
+    @import "../global";
+}

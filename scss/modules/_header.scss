@@ -1,0 +1,33 @@
+header {
+    background: linear-gradient(180deg, #080FA6 0%, rgba(8, 15, 166, 0.00) 100%);
+    position: relative;
+    background-size: cover;
+    div {
+        text-align: center;
+        padding-left: 0px;
+        div{
+            img{
+                width: 252px; 
+                height: 115px;
+                border: none;
+            }            
+        }
+        nav{
+            display: flex;
+            list-style-type: none;
+            font-size: 1rem;
+            padding-top: 32px;   
+            justify-content: flex-end;
+            a{
+              margin: 0 10px;
+              font-size: 0px;
+              color: #333;
+              text-align: end;
+            }
+            img{
+                width:45px;
+                height:auto;
+            }
+        }
+    }
+}
